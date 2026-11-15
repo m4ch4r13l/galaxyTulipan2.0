@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@layer base {
+  html,
+  body,
+  #root {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0b0212;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    touch-action: none;
+  }
+}
+
+.font-display {
+  font-family: 'Cinzel', serif;
+}
+
+.font-script {
+  font-family: 'Great Vibes', cursive;
+}
+
+/* Solid translucent surfaces without backdrop-filter for smooth WebGL compositing */
+.cosmos-surface {
+  background: rgba(15, 4, 24, 0.88);
+  border: 1px solid rgba(244, 114, 182, 0.24);
+  box-shadow: 0 18px 48px rgba(0, 0, 0, 0.55);
+}
+
+.cosmos-modal-backdrop {
+  background: rgba(7, 2, 12, 0.82);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .transition-transform,
+  .transition-opacity,
+  .transition-all {
+    transition-duration: 0.01ms !important;
+  }
+}

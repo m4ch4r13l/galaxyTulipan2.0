@@ -1,0 +1,6 @@
+{
+  "name": "Galaxia de Tulipanes",
+  "description": "Galaxia 3D interactiva de tulipanes multicolor con mensajes estelares, melodía ambiental generativa y recuerdos.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
