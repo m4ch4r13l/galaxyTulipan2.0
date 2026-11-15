@@ -11,55 +11,57 @@ export interface TulipPaletteEntry {
   burstHex: number;
 }
 
+const BASE = import.meta.env.BASE_URL;
+
 export const TULIP_MEMORIES: TulipMemory[] = [
   {
     id: 0,
     title: 'Conexión Infinita',
     verse:
       '"Una conexión\ncomo la nuestra,\nestará...\nHasta cuando nosotros\ndejemos de estar."',
-    image: '/assets/aistudio/img1_22161a26.jpeg',
+    image: `${BASE}assets/aistudio/img1_22161a26.jpeg`,
   },
   {
     id: 1,
     title: 'Sueño Estelar',
     verse:
       '"¿Cómo no amarte vida mía?\nSi eres un sueño,\nen un mundo de pesadillas."',
-    image: '/assets/aistudio/img2_a12b6e5d.jpeg',
+    image: `${BASE}assets/aistudio/img2_a12b6e5d.jpeg`,
   },
   {
     id: 2,
     title: 'Más Bella Que La Vida',
     verse:
       '"La vida es bella,\npero tú... mi vida...\neres más bella\nque la vida en sí misma."',
-    image: '/assets/aistudio/img3_ec320f2a.jpeg',
+    image: `${BASE}assets/aistudio/img3_ec320f2a.jpeg`,
   },
   {
     id: 3,
     title: 'Versos Escritos En El Cielo',
     verse:
       '"Si Dios existe, seguro es poeta,\ny te escribió a ti,\ncon perfección y amor en cada\nuna de tus letras..."',
-    image: '/assets/aistudio/img4_3ab1da46.jpeg',
+    image: `${BASE}assets/aistudio/img4_3ab1da46.jpeg`,
   },
   {
     id: 4,
     title: 'Vínculo Perpetuo',
     verse:
       '"Eres mía,\nporque ni tan tuya has sido,\ncomo ya has sido mía.\nY no eras mía como pertenencia,\ncomo un objeto...\nEres mía como vínculo perpetuo."',
-    image: '/assets/aistudio/img5_f7abd738.jpeg',
+    image: `${BASE}assets/aistudio/img5_f7abd738.jpeg`,
   },
   {
     id: 5,
     title: 'Bendita Coincidencia',
     verse:
       '"Bendito sea Dios, su física\ny su perfecta ciencia.\nBendita sea cada coincidencia\nque permitió tu bendita existencia..."',
-    image: '/assets/aistudio/img6_e1c2e0d2.jpeg',
+    image: `${BASE}assets/aistudio/img6_e1c2e0d2.jpeg`,
   },
   {
     id: 6,
     title: 'Toda Mi Vida Contigo',
     verse:
       '"Sé que no será fácil, pero\nquiero que sigamos siendo\ntú y yo por mucho tiempo más;\nquiero estar contigo\ntoda mi vida."',
-    image: '/assets/aistudio/img7_cfff7819.jpeg',
+    image: `${BASE}assets/aistudio/img7_cfff7819.jpeg`,
   },
 ];
 
