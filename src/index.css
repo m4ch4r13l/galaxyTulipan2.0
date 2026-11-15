@@ -23,7 +23,6 @@
   font-family: 'Great Vibes', cursive;
 }
 
-/* Solid translucent surfaces without backdrop-filter for smooth WebGL compositing */
 .cosmos-surface {
   background: rgba(15, 4, 24, 0.88);
   border: 1px solid rgba(244, 114, 182, 0.24);
